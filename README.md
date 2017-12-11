@@ -12,3 +12,8 @@ Student Info
 
 * Name: Bui Vu Huy
 * ID: USTHBI7-082
+
+```ruby
+ Megaman X is the blue bomber with his right arm as a cannon
+ Yuno Gasai vs Kurumi Tokisaki would be the most interesting battle ever with 2 yandere queen :)
+```
