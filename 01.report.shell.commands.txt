@@ -1,0 +1,47 @@
+-echo Hello world
+Hello world
+
+-passwd-yourname
+  Change user's password
+-man
+ To display menu and help
+-date
+ Friday, January 5, 2018 10:52:51
+-w
+10:51:43 up 12 min,  1 user,  load average: 0,74, 0,69, 0,57
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+huy      tty7     :0               10:40   12:06   8.29s  0.17s /sbin/upstart -
+-hostname
+huy-TP550LA (see your computer's name)
+-arch(print machine hardware name)
+x86_64
+-uname -a (print machine hardware name )
+Linux huy-TP550LA 4.4.0-77-generic #98-Ubuntu SMP Wed Apr 26 08:34:02 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+-whoami
+root
+-who
+huy      tty7         2018-01-05 10:40 (:0)
+-who am i
+ Not a command
+- id (print real and effective user and group IDs)
+uid=0(root) gid=0(root) groups=0(root)
+uid=0(root) gid=0(root) groups=0(root)
+root@huy-TP550LA:/home/huy# last
+huy      tty7         :0               Fri Jan  5 10:40    gone - no logout
+reboot   system boot  4.4.0-77-generic Fri Jan  5 10:39   still running
+
+wtmp begins Fri Jan  5 09:55:56 2018
+- finger(information lookup program)
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+huy       huy        tty7       18  Jan  5 10:40 (:0)
+- last(show a listing of last logged in users)
+huy      tty7         :0               Fri Jan  5 10:40    gone - no logout
+reboot   system boot  4.4.0-77-generic Fri Jan  5 10:39   still running
+
+wtmp begins Fri Jan  5 09:55:56 2018
+- uptime (see how long the system has been running)
+11:02:01 up 22 min,  1 user,  load average: 0,22, 0,25, 0,37
+
+Name: Bùi Vũ Huy
+Student ID: USTHBI7-082
+
