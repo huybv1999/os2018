@@ -1,0 +1,254 @@
+ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 01:35 ?        00:00:01 /sbin/init splash
+root         2     0  0 01:35 ?        00:00:00 [kthreadd]
+root         3     2  0 01:35 ?        00:00:00 [ksoftirqd/0]
+root         5     2  0 01:35 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 01:35 ?        00:00:01 [rcu_sched]
+root         8     2  0 01:35 ?        00:00:00 [rcu_bh]
+root         9     2  0 01:35 ?        00:00:00 [migration/0]
+root        10     2  0 01:35 ?        00:00:00 [watchdog/0]
+root        11     2  0 01:35 ?        00:00:00 [watchdog/1]
+root        12     2  0 01:35 ?        00:00:00 [migration/1]
+root        13     2  0 01:35 ?        00:00:00 [ksoftirqd/1]
+root        15     2  0 01:35 ?        00:00:00 [kworker/1:0H]
+root        16     2  0 01:35 ?        00:00:00 [watchdog/2]
+root        17     2  0 01:35 ?        00:00:00 [migration/2]
+root        18     2  0 01:35 ?        00:00:00 [ksoftirqd/2]
+root        20     2  0 01:35 ?        00:00:00 [kworker/2:0H]
+root        21     2  0 01:35 ?        00:00:00 [watchdog/3]
+root        22     2  0 01:35 ?        00:00:00 [migration/3]
+root        23     2  0 01:35 ?        00:00:00 [ksoftirqd/3]
+root        25     2  0 01:35 ?        00:00:00 [kworker/3:0H]
+root        26     2  0 01:35 ?        00:00:00 [kdevtmpfs]
+root        27     2  0 01:35 ?        00:00:00 [netns]
+root        28     2  0 01:35 ?        00:00:00 [perf]
+root        29     2  0 01:35 ?        00:00:00 [khungtaskd]
+root        30     2  0 01:35 ?        00:00:00 [writeback]
+root        31     2  0 01:35 ?        00:00:00 [ksmd]
+root        32     2  0 01:35 ?        00:00:00 [khugepaged]
+root        33     2  0 01:35 ?        00:00:00 [crypto]
+root        34     2  0 01:35 ?        00:00:00 [kintegrityd]
+root        35     2  0 01:35 ?        00:00:00 [bioset]
+root        36     2  0 01:35 ?        00:00:00 [kblockd]
+root        37     2  0 01:35 ?        00:00:00 [ata_sff]
+root        38     2  0 01:35 ?        00:00:00 [md]
+root        39     2  0 01:35 ?        00:00:00 [devfreq_wq]
+root        43     2  0 01:35 ?        00:00:00 [kswapd0]
+root        44     2  0 01:35 ?        00:00:00 [vmstat]
+root        45     2  0 01:35 ?        00:00:00 [fsnotify_mark]
+root        46     2  0 01:35 ?        00:00:00 [ecryptfs-kthrea]
+root        62     2  0 01:35 ?        00:00:00 [kthrotld]
+root        63     2  0 01:35 ?        00:00:00 [acpi_thermal_pm]
+root        64     2  0 01:35 ?        00:00:00 [bioset]
+root        65     2  0 01:35 ?        00:00:00 [bioset]
+root        66     2  0 01:35 ?        00:00:00 [bioset]
+root        67     2  0 01:35 ?        00:00:00 [bioset]
+root        68     2  0 01:35 ?        00:00:00 [bioset]
+root        69     2  0 01:35 ?        00:00:00 [bioset]
+root        70     2  0 01:35 ?        00:00:00 [bioset]
+root        71     2  0 01:35 ?        00:00:00 [bioset]
+root        78     2  0 01:35 ?        00:00:00 [ipv6_addrconf]
+root        92     2  0 01:35 ?        00:00:00 [deferwq]
+root        93     2  0 01:35 ?        00:00:00 [charger_manager]
+root       133     2  0 01:35 ?        00:00:00 [kworker/0:2]
+root       134     2  0 01:35 ?        00:00:00 [kpsmoused]
+root       135     2  0 01:35 ?        00:00:00 [scsi_eh_0]
+root       136     2  0 01:35 ?        00:00:00 [scsi_tmf_0]
+root       137     2  0 01:35 ?        00:00:00 [scsi_eh_1]
+root       138     2  0 01:35 ?        00:00:00 [scsi_tmf_1]
+root       139     2  0 01:35 ?        00:00:00 [scsi_eh_2]
+root       140     2  0 01:35 ?        00:00:00 [scsi_tmf_2]
+root       141     2  0 01:35 ?        00:00:00 [scsi_eh_3]
+root       142     2  0 01:35 ?        00:00:00 [scsi_tmf_3]
+root       150     2  0 01:35 ?        00:00:00 [bioset]
+root       151     2  0 01:35 ?        00:00:00 [bioset]
+root       154     2  0 01:35 ?        00:00:00 [kworker/2:1H]
+root       156     2  0 01:35 ?        00:00:00 [kworker/1:1H]
+root       179     2  0 01:35 ?        00:00:00 [jbd2/sda10-8]
+root       180     2  0 01:35 ?        00:00:00 [ext4-rsv-conver]
+root       206     2  0 01:35 ?        00:00:00 [kauditd]
+root       228     1  0 01:35 ?        00:00:00 /lib/systemd/systemd-journald
+root       230     2  0 01:35 ?        00:00:00 [kworker/0:1H]
+root       254     1  0 01:35 ?        00:00:01 /lib/systemd/systemd-udevd
+root       325     2  0 01:36 ?        00:00:00 [irq/46-mei_me]
+root       343     2  0 01:36 ?        00:00:00 [cfg80211]
+root       348     2  0 01:36 ?        00:00:00 [kworker/3:1H]
+root       441     2  0 01:36 ?        00:00:00 [kvm-irqfd-clean]
+root       499     2  0 01:36 ?        00:00:00 [kmemstick]
+root       505     2  0 01:36 ?        00:00:00 [rtsx_usb_ms_1]
+root       507     2  0 01:36 ?        00:00:00 [led_workqueue]
+systemd+   722     1  0 01:36 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root       796     1  0 01:36 ?        00:00:00 /usr/sbin/acpid
+syslog     799     1  0 01:36 ?        00:00:00 /usr/sbin/rsyslogd -n
+root       803     1  0 01:36 ?        00:00:00 /usr/lib/accountsservice/account
+root       827     1  0 01:36 ?        00:00:00 /lib/systemd/systemd-logind
+message+   840     1  0 01:36 ?        00:00:02 /usr/bin/dbus-daemon --system --
+root       874     1  0 01:36 ?        00:00:00 /usr/sbin/thermald --no-daemon -
+root       876     1  0 01:36 ?        00:00:00 /usr/sbin/cron -f
+whoopsie   879     1  0 01:36 ?        00:00:00 /usr/bin/whoopsie -f
+root       881     1  0 01:36 ?        00:00:00 /usr/sbin/ModemManager
+root       884     1  0 01:36 ?        00:00:02 /usr/sbin/NetworkManager --no-da
+avahi      888     1  0 01:36 ?        00:00:00 avahi-daemon: running [huy-TP550
+root       890     1  0 01:36 ?        00:00:00 /usr/lib/snapd/snapd
+avahi      932   888  0 01:36 ?        00:00:00 avahi-daemon: chroot helper
+root       988     1  0 01:36 ?        00:00:00 /usr/sbin/irqbalance --pid=/var/
+root      1001     1  0 01:36 ?        00:00:00 /usr/sbin/lightdm
+root      1015     1  0 01:36 ?        00:00:00 /usr/lib/policykit-1/polkitd --n
+root      1023  1001  0 01:36 tty7     00:00:22 /usr/lib/xorg/Xorg -core :0 -sea
+root      1060     1  0 01:36 tty1     00:00:00 /sbin/agetty --noclear tty1 linu
+root      1076     1  0 01:36 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /r
+root      1171  1001  0 01:36 ?        00:00:00 lightdm --session-child 12 19
+root      1196     1  0 01:36 ?        00:00:00 /usr/lib/bluetooth/bluetoothd
+rtkit     1239     1  0 01:36 ?        00:00:00 /usr/lib/rtkit/rtkit-daemon
+root      1261     1  0 01:36 ?        00:00:00 /usr/lib/upower/upowerd
+huy       1320     1  0 01:36 ?        00:00:00 /lib/systemd/systemd --user
+huy       1321  1320  0 01:36 ?        00:00:00 (sd-pam)
+huy       1327     1  0 01:36 ?        00:00:00 /usr/bin/gnome-keyring-daemon --
+huy       1329  1171  0 01:36 ?        00:00:00 /sbin/upstart --user
+root      1397   884  0 01:36 ?        00:00:00 /sbin/dhclient -d -q -sf /usr/li
+nobody    1417   884  0 01:36 ?        00:00:00 /usr/sbin/dnsmasq --no-resolv --
+huy       1613  1329  0 01:36 ?        00:00:00 upstart-udev-bridge --daemon --u
+huy       1615  1329  0 01:36 ?        00:00:01 dbus-daemon --fork --session --a
+huy       1627  1329  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/wi
+huy       1650  1329  0 01:36 ?        00:00:00 /usr/bin/ibus-daemon --daemonize
+huy       1672  1329  0 01:36 ?        00:00:00 upstart-dbus-bridge --daemon --s
+huy       1674  1329  0 01:36 ?        00:00:00 upstart-dbus-bridge --daemon --s
+huy       1678  1329  0 01:36 ?        00:00:00 upstart-file-bridge --daemon --u
+huy       1683  1329  0 01:36 ?        00:00:00 gpg-agent --homedir /home/huy/.g
+huy       1687  1329  0 01:36 ?        00:00:00 /usr/lib/gvfs/gvfsd
+huy       1692  1329  0 01:36 ?        00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/us
+huy       1701  1650  0 01:36 ?        00:00:00 /usr/lib/ibus/ibus-dconf
+huy       1702  1650  0 01:36 ?        00:00:00 /usr/lib/ibus/ibus-ui-gtk3
+huy       1704  1329  0 01:36 ?        00:00:00 /usr/lib/ibus/ibus-x11 --kill-da
+huy       1719  1329  0 01:36 ?        00:00:00 /usr/lib/unity-settings-daemon/u
+huy       1720  1329  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/bamf/b
+huy       1725  1329  0 01:36 ?        00:00:00 /usr/lib/at-spi2-core/at-spi-bus
+huy       1726  1329  0 01:36 ?        00:00:00 /usr/lib/gnome-session/gnome-ses
+huy       1732  1725  0 01:36 ?        00:00:00 /usr/bin/dbus-daemon --config-fi
+huy       1733  1329  0 01:36 ?        00:00:01 /usr/lib/x86_64-linux-gnu/unity/
+huy       1739  1329  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/hud/hu
+huy       1748  1329  0 01:36 ?        00:00:00 /usr/lib/at-spi2-core/at-spi2-re
+huy       1778  1650  0 01:36 ?        00:00:00 /usr/lib/ibus/ibus-engine-simple
+huy       1790  1329  0 01:36 ?        00:00:00 /usr/lib/dconf/dconf-service
+root      1794     2  0 01:36 ?        00:00:00 [kworker/u9:0]
+root      1795     2  0 01:36 ?        00:00:00 [hci0]
+root      1796     2  0 01:36 ?        00:00:00 [hci0]
+root      1797     2  0 01:36 ?        00:00:00 [kworker/u9:1]
+root      1828     2  0 01:36 ?        00:00:00 [krfcommd]
+colord    1843     1  0 01:36 ?        00:00:00 /usr/lib/colord/colord
+huy       1847  1329  0 01:36 ?        00:00:00 /usr/bin/pulseaudio --start --lo
+huy       1849  1329  1 01:36 ?        00:00:35 compiz
+huy       1854  1329  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+huy       1855  1329  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+huy       1858  1329  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+huy       1860  1329  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+huy       1862  1329  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+huy       1869  1329  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+huy       1870  1329  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+huy       1871  1329  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+huy       1900  1329  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/indica
+huy       1926  1719  0 01:36 ?        00:00:00 syndaemon -i 1.0 -t -K -R
+huy       1928  1329  0 01:36 ?        00:00:00 /usr/lib/evolution/evolution-sou
+huy       1931  1726  0 01:36 ?        00:00:06 nautilus -n
+huy       1935  1726  0 01:36 ?        00:00:04 nm-applet
+huy       1937  1726  0 01:36 ?        00:00:00 /usr/lib/unity-settings-daemon/u
+huy       1950  1726  0 01:36 ?        00:00:03 /usr/bin/gnome-software --gappli
+huy       1959  1726  0 01:36 ?        00:00:00 /usr/lib/policykit-1-gnome/polki
+huy       1974  1329  0 01:36 ?        00:00:00 /usr/lib/gvfs/gvfs-udisks2-volum
+root      1977     1  0 01:36 ?        00:00:00 /usr/lib/udisks2/udisksd --no-de
+huy       1989  1329  0 01:36 ?        00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-mo
+huy       1996  1329  0 01:36 ?        00:00:00 /usr/lib/gvfs/gvfs-goa-volume-mo
+huy       2001  1329  0 01:36 ?        00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volum
+huy       2006  1329  0 01:36 ?        00:00:00 /usr/lib/gvfs/gvfs-afc-volume-mo
+root      2021     1  0 01:36 ?        00:00:00 /usr/lib/x86_64-linux-gnu/fwupd/
+huy       2026  1329  0 01:36 ?        00:00:00 /usr/lib/evolution/evolution-cal
+huy       2031  1329  0 01:37 ?        00:00:00 /usr/lib/gvfs/gvfsd-trash --spaw
+huy       2047  1329  0 01:37 ?        00:00:00 /usr/lib/gvfs/gvfsd-metadata
+huy       2063  2026  0 01:37 ?        00:00:00 /usr/lib/evolution/evolution-cal
+huy       2073  1329  0 01:37 ?        00:00:00 /usr/lib/evolution/evolution-add
+huy       2077  2026  0 01:37 ?        00:00:00 /usr/lib/evolution/evolution-cal
+huy       2080  1726  0 01:37 ?        00:00:00 /usr/lib/gnome-user-share/gnome-
+huy       2100  1329  0 01:37 ?        00:00:00 /usr/lib/bluetooth/obexd
+huy       2106  2073  0 01:37 ?        00:00:00 /usr/lib/evolution/evolution-add
+huy       2143  1726  0 01:37 ?        00:00:00 zeitgeist-datahub
+huy       2149  1329  0 01:37 ?        00:00:00 /bin/sh -c /usr/lib/x86_64-linux
+huy       2165  2149  0 01:37 ?        00:00:00 /usr/bin/zeitgeist-daemon
+huy       2172  1329  0 01:37 ?        00:00:00 /usr/lib/x86_64-linux-gnu/zeitge
+huy       2202  1329  0 01:37 ?        00:00:01 /usr/lib/gnome-terminal/gnome-te
+huy       2209  2202  0 01:37 pts/6    00:00:00 bash
+huy       2260  1726  0 01:37 ?        00:00:00 update-notifier
+huy       2278  1329  0 01:38 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-
+huy       2289  1329  0 01:38 ?        00:00:00 /usr/bin/unity-scope-loader appl
+huy       2291  1329  0 01:38 ?        00:00:00 /usr/lib/x86_64-linux-gnu/unity-
+huy       2339  1329  0 01:38 ?        00:00:00 /usr/lib/gvfs/gvfsd-network --sp
+huy       2366  1329  0 01:38 ?        00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spaw
+root      2371  2209  0 01:38 pts/6    00:00:00 sudo su
+root      2374  2371  0 01:38 pts/6    00:00:00 su
+root      2375  2374  0 01:38 pts/6    00:00:00 bash
+huy       2385  1726  0 01:38 ?        00:00:00 /usr/lib/x86_64-linux-gnu/deja-d
+huy       2403  2202  0 01:39 pts/1    00:00:00 bash
+root      2629     2  0 01:41 ?        00:00:00 [kworker/0:1]
+root      2633     1  0 01:41 ?        00:00:00 /usr/sbin/cups-browsed
+root      2751     2  0 01:47 ?        00:00:00 [kworker/2:0]
+root      2783     2  0 01:52 ?        00:00:01 [kworker/u8:1]
+root      2812     2  0 01:58 ?        00:00:00 [kworker/3:0]
+root      2816     2  0 01:59 ?        00:00:00 [kworker/u8:2]
+root      2856     2  0 02:05 ?        00:00:00 [kworker/1:0]
+root      2906     2  0 02:16 ?        00:00:00 [kworker/2:1]
+huy       2926  1329  5 02:18 ?        00:00:32 /opt/google/chrome/chrome
+huy       2933  2926  0 02:18 ?        00:00:00 cat
+huy       2934  2926  0 02:18 ?        00:00:00 cat
+root      2935     2  0 02:18 ?        00:00:00 [kworker/1:1]
+huy       2938  2926  0 02:18 ?        00:00:00 /opt/google/chrome/chrome --type
+huy       2939  2938  0 02:18 ?        00:00:00 /opt/google/chrome/nacl_helper
+huy       2942  2938  0 02:18 ?        00:00:00 /opt/google/chrome/chrome --type
+huy       2951  1329  0 02:18 ?        00:00:00 /usr/lib/x86_64-linux-gnu/gconf/
+huy       3001  2926  2 02:18 ?        00:00:13 /opt/google/chrome/chrome --type
+huy       3003  3001  0 02:18 ?        00:00:00 /opt/google/chrome/chrome --type
+huy       3051  2942  0 02:18 ?        00:00:00 /opt/google/chrome/chrome --type
+root      3148     2  0 02:19 ?        00:00:00 [kworker/u8:0]
+root      3231     2  0 02:19 ?        00:00:00 [kworker/3:2]
+root      3244     2  0 02:19 ?        00:00:00 [kworker/0:0]
+huy       3259  2942  0 02:19 ?        00:00:02 /opt/google/chrome/chrome --type
+huy       3281  2942  1 02:19 ?        00:00:08 /opt/google/chrome/chrome --type
+huy       3308  2942  0 02:19 ?        00:00:01 /opt/google/chrome/chrome --type
+huy       3320  2942  0 02:19 ?        00:00:01 /opt/google/chrome/chrome --type
+huy       3360  2942  2 02:20 ?        00:00:10 /opt/google/chrome/chrome --type
+huy       3424  2942  1 02:21 ?        00:00:05 /opt/google/chrome/chrome --type
+root      3442     1  0 02:21 ?        00:00:00 /sbin/mount.ntfs /dev/sda4 /medi
+root      3448     1  0 02:21 ?        00:00:00 /sbin/mount.ntfs /dev/sda8 /medi
+root      3454     1  0 02:21 ?        00:00:00 /sbin/mount.ntfs /dev/sda7 /medi
+root      4013     2  0 02:24 ?        00:00:00 [kworker/0:3]
+root      4026     2  0 02:24 ?        00:00:00 [kworker/0:4]
+root      4038     2  0 02:24 ?        00:00:00 [kworker/0:5]
+root      4042     2  0 02:25 ?        00:00:00 [kworker/3:1]
+huy       4070  2942  5 02:26 ?        00:00:05 /opt/google/chrome/chrome --type
+huy       4255  2942  0 02:26 ?        00:00:00 /opt/google/chrome/chrome --type
+root      4275     2  0 02:26 ?        00:00:00 [kworker/2:2]
+root      4295     2  0 02:27 ?        00:00:00 [kworker/1:2]
+root      4297     2  0 02:27 ?        00:00:00 [kworker/u8:3]
+huy       4303  2942  5 02:27 ?        00:00:00 /opt/google/chrome/chrome --type
+huy       4318  2942 26 02:27 ?        00:00:00 /opt/google/chrome/chrome --type
+root      4333  2375  0 02:27 pts/6    00:00:00 ps -ef
+
+-(gnome-calculator &)
+ start gnome-calculator process in background
+-ps aux | grep -i gnome-calculator | awk {'print $2'}
+4734
+- cat /proc/4734/status |grep State
+State:	S (sleeping)
+-  kill -STOP 4734
+   cat /proc/4734/status |grep State
+State:	T (stopped)
+- kill -CONT 4734
+  cat /proc/4734/status |grep State
+State:	S (sleeping)
+- kill -KILL 4734
+  cat /proc/4734/status |grep State
+cat: /proc/4734/status: No such file or directory
+
+ Name: Bui Vu Huy
+ ID: USTHBI7 - 082
+ 
+ -- You know, Saitama could defeat goku with one punch --
