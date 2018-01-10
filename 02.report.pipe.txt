@@ -1,0 +1,26 @@
+- ls | grep .deb
+google-chrome-stable_current_amd64.deb
+ Filter all files with .deb
+ls /etc/passwd | wc -l
+1
+- find Desktop | grep .jpg | wc -l
+2
+ cat /proc/cpuinfo |grep siblings | wc -l
+4
+ - free | grep Mem | head -n 1 | awk '{print $2}'
+8056248
+ - sudo cat /proc/cpuinfo |grep core
+core id		: 0
+cpu cores	: 2
+core id		: 1
+cpu cores	: 2
+core id		: 0
+cpu cores	: 2
+core id		: 1
+cpu cores	: 2
+
+
+ Name: Bui Vu Huy
+ ID: USTHBI7 -082
+
+  - I love you, Yuno Gasai, my best waifu :)
