@@ -2,6 +2,7 @@
 #include<string.h>
 #include<stdio.h>
 #include<stdlib.h>
+#include<stdbool.h>
 
 #define BUFFER_SIZE (100)
 typedef struct 
@@ -14,9 +15,9 @@ typedef struct
 item buffer[BUFFER_SIZE];
 int first = -1;
 int last = 0;
-int CheckFirstTime = 1;
+bool CheckFirstTime = true;
  void produce(item* i){
- if ((first + 1)%BUFFER_SIZE == last && CheckFirstTime == 0) return;
+ if ((first + 1)%BUFFER_SIZE == last && CheckFirstTime == false) return;
  first = (first + 1) % BUFFER_SIZE;
  memcpy(&buffer[first], i , sizeof(item));
 }
