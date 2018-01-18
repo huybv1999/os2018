@@ -14,3 +14,4 @@ nr_switches                                  :                  591
 nr_voluntary_switches                        :                  549
 nr_involuntary_switches                      :                   42
 
+You know, saitama could defeat goku with one punch :)
