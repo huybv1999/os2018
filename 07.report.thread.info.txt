@@ -1,0 +1,16 @@
+cat /proc/sched_debug | grep firefox | awk '{print $2}'
+4080
+4545
+$ ps -o nlwp 4080
+NLWP
+  48
+$ ps -o nlwp 4545
+NLWP
+$ ls /proc/4080/task | wc -l
+49
+$ ls /proc/4545/task | wc -l
+49
+
+
+
+
