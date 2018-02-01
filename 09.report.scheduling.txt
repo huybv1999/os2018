@@ -100,7 +100,7 @@
      
 
             _ stands for arrival time
-            █ stands for time burst
+            █ stands for time execution
 
 
   Question 1:
