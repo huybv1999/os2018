@@ -6,6 +6,9 @@
 #include<stdlib.h>
 #include<semaphore.h>
 
+// You know, Saitama could kill Goku with one punch
+// Yuno Gasai, I love you <3 <3 <3. I love you too, Mai Kawakami.
+
 #define BUFFER_SIZE 100
 typedef struct 
 {
